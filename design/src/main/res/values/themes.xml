@@ -115,7 +115,7 @@
     </style>
 
     <style name="AppThemeLightBase" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:windowBackground">@color/bg_gradient</item>
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
         <item name="android:ambientShadowAlpha">0.08</item>
         <item name="android:spotShadowAlpha">0.08</item>
 
