@@ -15,7 +15,8 @@
 
         <item name="colorPrimary">@color/color_clash_light</item>
         <item name="colorOnPrimary">@android:color/white</item>
-        <item name="colorControlNormal">@android:color/black</item>
+        <!-- Diubah ke biru gelap agar teks senada dengan tema biru sky -->
+        <item name="colorControlNormal">#1E4376</item>
         <item name="colorClashStopped">@color/color_light_clash_stopped</item>
         <item name="colorControlDisabled">@color/color_light_control_disabled</item>
 
@@ -68,7 +69,8 @@
 
         <item name="colorPrimary">@color/color_clash_light</item>
         <item name="colorOnPrimary">@android:color/white</item>
-        <item name="colorControlNormal">@android:color/black</item>
+        <!-- Diubah ke biru gelap agar teks senada dengan tema biru sky -->
+        <item name="colorControlNormal">#1E4376</item>
         <item name="colorClashStopped">@color/color_light_clash_stopped</item>
         <item name="colorControlDisabled">@color/color_light_control_disabled</item>
 
@@ -119,7 +121,8 @@
 
         <item name="colorPrimary">@color/color_clash_light</item>
         <item name="colorOnPrimary">@android:color/white</item>
-        <item name="colorControlNormal">@android:color/black</item>
+        <!-- Diubah ke biru gelap agar teks senada dengan tema biru sky -->
+        <item name="colorControlNormal">#1E4376</item>
         <item name="colorClashStopped">@color/color_light_clash_stopped</item>
         <item name="colorControlDisabled">@color/color_light_control_disabled</item>
 
@@ -158,7 +161,8 @@
     </style>
 
     <style name="AppThemeLight" parent="AppThemeLightBase">
-        <item name="android:statusBarColor">@color/color_system_ui_overlay</item>
+        <!-- Status bar diubah jadi transparan agar menyatu dengan background putih bersih -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@color/color_system_ui_overlay</item>
     </style>
 
